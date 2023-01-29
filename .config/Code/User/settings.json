@@ -1,0 +1,45 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "One Dark Pro Darker",
+
+    "editor.fontFamily": "'JetBrainsMono NF', Consolas, 'Courier New', monospace",
+    "editor.fontSize": 15,
+    "editor.lineHeight": 19,
+    "editor.bracketPairColorization.enabled": false,
+    "editor.minimap.enabled": false,
+    "editor.lineNumbers": "relative",
+
+    "terminal.integrated.fontSize": 15,
+
+    "files.eol": "\n",
+    "files.exclude": {
+        "**/.git": false
+    },
+
+    "editor.semanticTokenColorCustomizations": {
+       "enabled": true,
+        "rules": {
+            "*.mutable": {
+                "underline": false,
+            }
+        },
+        "[One Dark Pro Darker]": {
+            "rules": {
+                "variable": "#ABB2BF",
+                "function": "#E06C75"
+            }
+
+        }
+    },
+
+    "rust-analyzer.inlayHints.chainingHints.enable": false,
+    "rust-analyzer.inlayHints.closingBraceHints.enable": false,
+    "rust-analyzer.inlayHints.parameterHints.enable": false,
+    "rust-analyzer.inlayHints.typeHints.enable": false,
+
+    "window.zoomLevel": 1,
+
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.codeLens.enabled": false
+}
