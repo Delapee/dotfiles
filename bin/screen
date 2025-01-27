@@ -1,0 +1,21 @@
+#!/bin/bash
+
+case "$1" in
+  laptop)
+    xrandr --output eDP-1 --mode 1920x1080 --pos 0x0 --rotate normal --output DP-1 --off --output HDMI-1 --off --output HDMI-2 --off
+    ;;
+  right)
+    xrandr --output eDP-1 --mode 1920x1080 --pos 0x0 --rotate normal --output DP-1 --off --output HDMI-1 --off --output HDMI-2 --primary --mode 1920x1080 --pos 1920x0 --rotate normal
+    ;;
+  left)
+    xrandr --output eDP-1 --mode 1920x1080 --pos 1920x0 --rotate normal --output DP-1 --off --output HDMI-1 --off --output HDMI-2 --primary --mode 1920x1080 --pos 0x0 --rotate normal
+    ;;
+  tv|Tv|TV)
+    xrandr --output eDP-1 --off --output DP-1 --off --output HDMI-1 --off --output HDMI-2 --primary --mode 1920x1080 --pos 0x0 --rotate normal
+    ;;
+  *)
+    echo "Error: '$1' it's not a valid option"
+    echo "Options: laptop, right, left and tv"
+    exit 1
+    ;;
+esac
