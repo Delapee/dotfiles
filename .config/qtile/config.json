@@ -1,0 +1,11 @@
+{
+  "bar": "decorated",
+  "colorscheme": "custom",
+  "terminal": "kitty",
+  "wallpaper_main": "~/.config/qtile/img/wallpapers/elden-ring.jpg",
+  "wallpaper_sec": "~/.config/qtile/img/wallpapers/cosmere-logo.jpeg",
+  "with_battery": true,
+  "with_wlan": true,
+  "network": "wlp2s0",
+  "two_monitors": true
+}
