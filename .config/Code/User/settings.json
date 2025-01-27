@@ -1,45 +1,47 @@
 {
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "One Dark Pro Darker",
-
-    "editor.fontFamily": "'JetBrainsMono NF', Consolas, 'Courier New', monospace",
-    "editor.fontSize": 15,
-    "editor.lineHeight": 19,
-    "editor.bracketPairColorization.enabled": false,
-    "editor.minimap.enabled": false,
-    "editor.lineNumbers": "relative",
-
-    "terminal.integrated.fontSize": 15,
-
-    "files.eol": "\n",
-    "files.exclude": {
-        "**/.git": false
-    },
-
-    "editor.semanticTokenColorCustomizations": {
-       "enabled": true,
-        "rules": {
-            "*.mutable": {
-                "underline": false,
-            }
-        },
-        "[One Dark Pro Darker]": {
-            "rules": {
-                "variable": "#ABB2BF",
-                "function": "#E06C75"
-            }
-
-        }
-    },
-
-    "rust-analyzer.inlayHints.chainingHints.enable": false,
-    "rust-analyzer.inlayHints.closingBraceHints.enable": false,
-    "rust-analyzer.inlayHints.parameterHints.enable": false,
-    "rust-analyzer.inlayHints.typeHints.enable": false,
-
-    "window.zoomLevel": 1,
-
-    "gitlens.currentLine.enabled": false,
-    "gitlens.hovers.currentLine.over": "line",
-    "gitlens.codeLens.enabled": false
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "editor.fontFamily": "'JetBrainsMono NF', 'Courier New', monospace",
+  "editor.fontSize": 15,
+  "editor.lineHeight": 19,
+  "editor.bracketPairColorization.enabled": false,
+  "editor.minimap.enabled": false,
+  "editor.lineNumbers": "relative",
+  "editor.detectIndentation": false,
+  "terminal.integrated.fontSize": 15,
+  "files.eol": "\n",
+  "files.exclude": {
+    "**/.git": false
+  },
+  "gitlens.currentLine.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.codeLens.enabled": false,
+  "window.menuBarVisibility": "toggle",
+  "latex-workshop.latex.outDir": "%DIR%/build",
+  "rust-analyzer.inlayHints.chainingHints.enable": false,
+  "rust-analyzer.inlayHints.closingBraceHints.enable": false,
+  "rust-analyzer.inlayHints.parameterHints.enable": false,
+  "rust-analyzer.inlayHints.typeHints.enable": false,
+  "editor.formatOnSave": true,
+  "[javascriptreact]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+  },
+  "[json]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+  },
+  "[jsonc]": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+  },
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports.ruff": "explicit"
+    }
+  },
+  "window.zoomLevel": 1,
+  "clangd.path": "/home/delape/.config/Code - OSS/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/18.1.3/clangd_18.1.3/bin/clangd",
 }
