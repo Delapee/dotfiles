@@ -10,15 +10,5 @@ alias l='lsd --group-dirs=first'
 alias lla='lsd -lha --group-dirs=first'
 alias ls='lsd --group-dirs=first'
 alias sl="sl -e"
-
-function python;
-	python3 $argv;
-end
-
-function pip;
-	pip3 $argv;
-end
-
-function cat;
-	batcat $argv;
-end
+alias pacman='sudo pacman'
+alias cat='bat'
