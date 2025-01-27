@@ -17,3 +17,5 @@ Welcome to my dotfiles repository! 🚀 Powered by Arch Linux and paired with Qt
 - **Editors:** Neovim (with my own config, primarily used), VSCode
 - **Fetch:** neofetch
 - **Colorscheme:** Custom (primarily used), Nord as fallback
+
+![screenshot](./screenshots/system.png)
